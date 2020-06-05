@@ -14,11 +14,11 @@
     1   3 6   9
 
     Output:
-          4
-        /   \
-       7     2
-      / \   / \
-     9   6 3   1
+         4
+       /   \
+      7     2
+     / \   / \
+    9   6 3   1
 */
 
 /*  APPROACH: Recursive Solution - O(n)
@@ -29,7 +29,7 @@
     5. When the root node has been reached, the process is completed.  
 */
 
-// SOLUTION
+// SOLUTION:
 #include <bits/stdc++.h>
 
 // Tree definition

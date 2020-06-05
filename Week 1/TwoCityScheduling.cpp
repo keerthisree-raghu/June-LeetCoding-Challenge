@@ -23,14 +23,14 @@
 */
 
 /*  APPROACH - O(n)
-    1. Calculate the cost of sending every person to City A and store it in a variable
-    2. Calculate the difference between sending a person to City B instead of City A, and store it in an array
-    3. Sort the values in the array. The smaller the difference value, the greater the profit earned by sending them to City B
-    4. Choose the first N people from the array (the ones having lowest difference value) and send them to City B
-    5. Add the difference of the cost of sending people to City B instead of City A to the original total cost
+    1. Calculate the cost of sending every person to City A and store it in a variable.
+    2. Calculate the difference between sending a person to City B instead of City A, and store it in an array.
+    3. Sort the values in the array. The smaller the difference value, the greater the profit earned by sending them to City B.
+    4. Choose the first N people from the array (the ones having lowest difference value) and send them to City B.
+    5. Add the difference of the cost of sending people to City B instead of City A to the original total cost.
 */
 
-// SOLUTION
+// SOLUTION:
 #include <bits/stdc++.h>
 
 using namespace std;

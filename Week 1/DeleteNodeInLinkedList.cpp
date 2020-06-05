@@ -34,7 +34,7 @@
     same effect of deleting the given node.
 */
 
-// SOLUTION
+// SOLUTION:
 #include <bits/stdc++.h>
 
 using namespace std;
