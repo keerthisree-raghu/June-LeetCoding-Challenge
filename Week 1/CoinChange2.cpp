@@ -24,7 +24,7 @@
     Output: 1
 */
 
-/*  APPROACH: Top-Down Dynamic Programming O(n^2)
+/*  APPROACH: Top-Down Dynamic Programming - O(n^2)
     1. Initialize a one-dimensional vector to build the dynamic programming table.
     2. Iterate through every coin value.
     3. Build the table by adding the current value with the value at position (i - coin).
