@@ -22,7 +22,7 @@
     The total minimum cost is 10 + 30 + 50 + 20 = 110 to have half the people interviewing in each city.
 */
 
-/*  APPROACH - O(n)
+/*  APPROACH - O(nlogn)
     1. Calculate the cost of sending every person to City A and store it in a variable.
     2. Calculate the difference between sending a person to City B instead of City A, and store it in an array.
     3. Sort the values in the array. The smaller the difference value, the greater the profit earned by sending them to City B.
