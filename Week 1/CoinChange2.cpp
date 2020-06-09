@@ -10,7 +10,7 @@
 
     Input: amount = 5, coins = [1, 2, 5]
     Output: 4
-    Explanation: there are four ways to make up the amount:
+    Explanation: There are four ways to make up the amount:
     5=5
     5=2+2+1
     5=2+1+1+1
@@ -18,13 +18,13 @@
 
     Input: amount = 3, coins = [2]
     Output: 0
-    Explanation: the amount of 3 cannot be made up just with coins of 2.
+    Explanation: The amount of 3 cannot be made up just with coins of 2.
 
     Input: amount = 10, coins = [10] 
     Output: 1
 */
 
-/*  APPROACH: Top-Down Dynamic Programming - O(n^2)
+/*  APPROACH: Top-Down Dynamic Programming - O(n*m)
     1. Initialize a one-dimensional vector to build the dynamic programming table.
     2. Iterate through every coin value.
     3. Build the table by adding the current value with the value at position (i - coin).

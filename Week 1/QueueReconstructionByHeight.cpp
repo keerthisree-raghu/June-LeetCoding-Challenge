@@ -22,8 +22,8 @@
 /*  APPROACH: Insertion Sort - O(n^2)
     1. Initialize an empty vector to insert each person.
     2. Compare each person such that
-        a. If they do not have the same height (h) value, they should be sorted in ascending order.
-        b. If they have the same height (h) value, sort them in descending order of the number of people in front of them (k).
+        a. If they do not have the same height (h) value, they should be sorted in descending order.
+        b. If they have the same height (h) value, sort them in ascending order of the number of people in front of them (k).
     3. Insert each person into position k. 
 */
 

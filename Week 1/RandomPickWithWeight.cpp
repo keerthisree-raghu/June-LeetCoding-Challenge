@@ -45,16 +45,17 @@
     Element 2 is 1 / 15
     Element 3 is 4 / 15
 
-    We need to generate the index following the probability mass function. 
+    We need to generate the probability mass function of each index. 
     Suppose we have an array of 15 equal elements.
 
-    Element 0 occupies from 0->2 (3 elements)
-    Element 1 occupies from 3->9 (7 elements)
-    Element 2 occupies from 10->10 (1 elements)
-    Element 3 occupies from 11->14 (4 elements)
+    Element 0 occupies index values from 0->2 (3 elements)
+    Element 1 occupies index values from 3->9 (7 elements)
+    Element 2 occupies index values from 10->10 (1 element)
+    Element 3 occupies index values from 11->14 (4 elements)
 
     To get an index, we generate a random number and take its modulo to 15.
-    If the random number is 6, 6 % 15 = 9. Therefore, it is in the range [3-9] so it is mapped back to Element 1. 
+    If the random number is 6, 6 % 15 = 9. 
+    Therefore, it is in the range [3-9] so it is mapped back to Element 1. 
 
     Algorithm:
     1. Store the lower and upper range of each weight according to its occurrence.

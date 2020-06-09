@@ -17,9 +17,9 @@
 
 /*  APPROACH - O(1) Space Complexity
     1. Calculate the length of the array and store it in a variable.
-    2. Initialize two pointers to point to the extreme ends of the array,
-    3. Traverse the array and swap the elements at the left and right position, using a temporary variable.
-    4. When the left and right pointer becomes equal or breaks the condition (left < right), stop.
+    2. Initialize two pointers to point to the extreme ends of the array.
+    3. Traverse the array and swap the elements at the left and right positions, using a temporary variable.
+    4. When the left and right pointers become equal or break the condition (left < right), stop.
 */
 
 // SOLUTION:
