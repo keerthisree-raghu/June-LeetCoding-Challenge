@@ -35,7 +35,7 @@
     5. Add the difference of the cost of sending people to City B instead of City A to the original total cost.
 */
 
-// SOLUTION:
+// SOLUTION: 
 #include <bits/stdc++.h>
 
 using namespace std;
