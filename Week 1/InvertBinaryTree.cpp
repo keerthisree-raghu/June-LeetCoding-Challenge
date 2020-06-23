@@ -32,6 +32,8 @@
 // SOLUTION:
 #include <bits/stdc++.h>
 
+using namespace std;
+
 // Tree definition
 struct TreeNode {
     int val;
