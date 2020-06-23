@@ -1,4 +1,4 @@
-// H-Index II
+// H-INDEX II
 
 /*  PROBLEM:
     Given an array of citations sorted in ascending order (each citation is a non-negative 
