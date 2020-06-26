@@ -25,7 +25,7 @@
     X O X X      
 */
 
-/*  APPROACH: Depth First Search
+/*  APPROACH: Depth-First-Search
     1. Iterate over the row and column boundaries of the board until an 'O' is encountered.
     2. Perform depth-first-search using the DFS helper function every time an 'O' is encountered, from its position.
     3. Convert all of the encountered 'O's during the DFS operation to '#' in order to mark the cells that cannot be converted to 'X'.
