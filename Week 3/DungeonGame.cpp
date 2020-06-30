@@ -25,7 +25,7 @@
     Output Format: Integer representing the knight's minimum initial health.
 */
 
-/*  APPROACH: Bottom-Up Dynamic Programming
+/*  APPROACH: Bottom-Up Dynamic Programming - O(m*n)
     1. Create a two-dimensional vector to store the value of health points, such that health[i][j] represents the health points required to enter the cell at position ( i, j).
     2. Traverse through the grid in a bottom-up manner
         a. Calculate the minimum number of health points required to travel to the next cell.
