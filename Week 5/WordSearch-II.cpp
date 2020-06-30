@@ -25,7 +25,7 @@
     Output: ["eat","oath"]
 */
 
-/*  APPROACH 1: Depth-First-Search
+/*  APPROACH 1: Depth-First-Search - O(m*n*4^L)
     1. Identify the unique words from the given list of words using a set.
     2. Iterate through each word in the list.
     3. Check if the word exists on the board.
@@ -103,8 +103,8 @@ public:
     }
 };
 
-/*  APPROACH 2: Trie
-    1. Build the trie using the constructWord() function.
+/*  APPROACH 2: Trie - O(L+4^L)
+    1. Build the trie from the given list of words.
     2. Iterate through each cell of the board using DFS and search for the letters needed to form a word.
     
     Construct Word Function:
