@@ -30,7 +30,7 @@
     Output: []    
 */
 
-/*  APPROACH: Recursive - O(logn)
+/*  APPROACH: Recursive - O(n)
     1. If the value at the current node being traversed is equal to the given value, then return the reference to that node.
     2. If the value is less than the value of the current node, then it can only be found in the left sub-tree of the BST, so recursively call the function such that it traverses to the left of the current node.
     3. If the value is greater than the value of the current node, then it can only be found in the right sub-tree of the BST, so recursively call the function such that it traverses to the right of the current node.
